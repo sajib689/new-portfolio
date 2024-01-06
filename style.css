@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.main-container nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 180px;
+    margin-top: 20px;
+}
+.logo p {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+}
+.logo span {
+    color: #FD6E0A;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar ul li {
+    list-style-type: none;
+    margin-right: 15px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color:#474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-primary {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 13px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner img {
+    width: 500px;
+}
+.content-container{
+    max-width: 500px;
+}
+.content-container h3{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.content-container p{
+    columns: #757575;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.main-section{
+    padding: 0 150px;
+}
+.main-content{
+    text-align: center;
+    margin-top: 250px;
+}
+.main-content h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.main-content .bio{
+    margin-bottom: 20px;
+}
+.description{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.experience{
+    text-align: center;
+    margin-top: 250px;
+}
+.experience h2  {
+    margin-bottom: 20px;
+}
+.experience-details{
+    text-align: left;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.experience-details div{
+    margin-right: 20px;
+}
+.main-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summery-section .title{
+    margin-bottom: 70px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.subtitle{
+    columns: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.education-area{
+    text-align: start;
+}
+.education-details h2{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.education-details h4{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.education-details p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.education-area h1{
+    margin-bottom: 20px;
+}
+.contact-area{
+    display: flex;
+    margin-top: 200px;
+}
+.social-area{
+    text-align: start;
+    width: 700px;
+}
+.social-area h3 {
+    color: #181818;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.message-area h3{
+    color: #181818;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.icon{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.message-area h3{
+    text-align: start;
+}
+.input-filed {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.input-filed input{
+    width: 400px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0;
+
+}
+.btn{
+    margin-top: 15px;
+}
+.social-area p{
+    width: 400px;
+}
