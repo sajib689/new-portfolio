@@ -256,4 +256,9 @@ header{
     .contact-area{
         flex-direction: column;
     }
+    
+    .main-container nav {
+        justify-content: space-around;
+    }
+    
 }
