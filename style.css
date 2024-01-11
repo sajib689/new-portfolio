@@ -10,7 +10,7 @@ body {
 
 header{
     background-color: #FFF8F3;
-    background-image: url('./images/header_bg.png');
+    background-image:  url('./images/developer.png'), url('./images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -203,4 +203,57 @@ header{
 }
 .social-area p{
     width: 400px;
+}
+.hide{
+    display: none;
+}
+/* Responsive web design */
+@media screen and (max-width: 576px) {
+    .banner {
+        padding: 10px 10px 0px 30px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .banner img {
+        width: 500px;
+        margin-top: 50px;
+    }
+    .content-container{
+        max-width: 500px;
+    }
+    .content-container h3{
+        font-size: 40px;
+    }
+    .content-container p{
+        color: #757575;
+        font-size: 14px;
+    }
+    .btn-primary {
+        padding: 10px 23px;
+    }
+    .main-section{
+        padding: 0 20px;
+    }
+    .description{
+        flex-direction: column;
+    }
+    .experience{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .experience-details{
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .main-area{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-area{
+        flex-direction: column;
+    }
 }
